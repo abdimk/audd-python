@@ -4,12 +4,14 @@
 # Example
 
 
-#os.environ['api_token'] = 'YOUR API TOKEN FROM https://dashboard.audd.io/'
+
 from utils import music_finder
 from utils.music_finder import MusicFinder
 from utils.extractor import Data
 import config
 import os
+
+#os.environ['api_token'] = 'YOUR API TOKEN FROM https://dashboard.audd.io/'
 config.SPOTIFY = True  # if you don't want result from spotify make it false
 config.APPLE_MUSIC = True
 # You can't make both variables flase at the same time
