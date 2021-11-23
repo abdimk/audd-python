@@ -31,3 +31,13 @@ apple music preview: {audio_data.apple_music_previews_url()}''')
 
 var()
 ```
+#out put
+``` yaml
+title: Na Na
+artistName: Hewan Gebrewold
+ComposerName: Natinael Girmachew
+release date: 2021-02-19
+Spotify link: {'spotify': 'https://open.spotify.com/artist/60fiWbQASuQ0otDUr7mBSE'}
+apple music preview: https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/50/09/16/5009166a-c740-6d16-7288-5fbd9eb08d66/mzaf_4264971115303501547.plus.aac.p.m4a
+
+```
