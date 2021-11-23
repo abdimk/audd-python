@@ -1,7 +1,7 @@
 '''python audd.io wrapper'''
 
 # Example
-<code>
+```yaml
 
 #os.environ['api_token'] = 'YOUR API TOKEN FROM https://dashboard.audd.io/'
 from utils import music_finder
@@ -12,7 +12,7 @@ import os
 config.SPOTIFY = True  # if you don't want result from spotify make it false
 config.APPLE_MUSIC = True
 # You can't make both variables flase at the same time
-</code>
+```
 music = MusicFinder('True', 'https://github.com/abdimk/audd-python/raw/main/samples(Records)/test_audio5.m4a')
 # print(music.finder()) # return all the result as json
 audio_data = Data(music.finder())
